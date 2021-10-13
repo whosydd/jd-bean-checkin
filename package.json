@@ -1,0 +1,34 @@
+{
+  "name": "jd-bean-checkin",
+  "version": "0.1.0",
+  "description": "京东签到领京豆",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whosydd/jd-bean-checkin.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "nodemailer"
+  ],
+  "author": "whosydd <dev.youngkwok718@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/whosydd/jd-bean-checkin/issues"
+  },
+  "homepage": "https://github.com/whosydd/jd-bean-checkin#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "puppeteer": "^10.4.0"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "cookie-format": "^0.2.0",
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.7.0",
+    "puppeteer-core": "^10.4.0"
+  }
+}
