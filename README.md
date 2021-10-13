@@ -18,6 +18,7 @@
 `COOKIE`：登录后得到的`cookie`
 
 `MAIL`：邮箱地址（xxx@xxx.com）
+
 `TOKEN`：SMTP 授权码（非登录密码）
 
 ### 运行
