@@ -3,7 +3,7 @@ require('dotenv').config()
 
 module.exports = () => {
   // 设置邮箱信息
-  transporter = nodemailer.createTransport({
+  let transporter = nodemailer.createTransport({
     host: 'smtp.qq.com',
     service: 'QQ', // 使用了内置传输发送邮件 查看支持列表：https://nodemailer.com/smtp/well-known/
     port: 587, //端口号
@@ -16,7 +16,7 @@ module.exports = () => {
   })
 
   // 设置邮件信息
-  mailOptions = {
+  let mailOptions = {
     from: process.env.MAIL, // sender address
     to: process.env.MAIL, // list of receivers
     subject: '【京东签到领京豆】更新cookie', // Subject line
