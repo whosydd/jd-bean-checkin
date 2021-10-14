@@ -6,8 +6,8 @@ module.exports = () => {
   let transporter = nodemailer.createTransport({
     host: 'smtp.qq.com',
     service: 'QQ', // 使用了内置传输发送邮件 查看支持列表：https://nodemailer.com/smtp/well-known/
-    port: 587, //端口号
-    secure: false, //465为true,其他为false
+    port: 465, //端口号
+    secure: true, //465为true,其他为false
     auth: {
       user: process.env.MAIL, //你的邮箱
       // 这里密码不是qq密码，是你设置的smtp授权码
