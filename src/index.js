@@ -3,6 +3,7 @@ const { puppeteerCookie } = require('cookie-format')
 const mail = require('./mail')
 require('dotenv').config()
 
+// 格式化cookie字符串
 const cookies = puppeteerCookie(process.env.COOKIE, { domain: '.jd.com' }).filter(
   item => item.name === 'pt_pin' || item.name === 'pt_key'
 )
