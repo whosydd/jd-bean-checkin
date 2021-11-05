@@ -15,7 +15,7 @@
 
 ### 设置环境变量
 
-`COOKIE`：登录后得到的`cookie`
+`COOKIE`：登录后得到的`cookie`字符串
 
 `MAIL`：邮箱地址（xxx@xxx.com）
 
@@ -26,4 +26,3 @@
 ```js
 npm start
 ```
-
