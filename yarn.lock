@@ -78,10 +78,10 @@ concat-map@0.0.1:
   resolved "https://registry.npm.taobao.org/concat-map/download/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-cookie-format@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmmirror.com/cookie-format/download/cookie-format-0.2.0.tgz?cache=0&sync_timestamp=1634067330896&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcookie-format%2Fdownload%2Fcookie-format-0.2.0.tgz#383f550af8732000e8bb4c287c79a3e10fc55f6f"
-  integrity sha1-OD9VCvhzIADou0wofHmj4Q/FX28=
+cookie-format@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmmirror.com/cookie-format/download/cookie-format-0.2.1.tgz?cache=0&sync_timestamp=1636134257273&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcookie-format%2Fdownload%2Fcookie-format-0.2.1.tgz#5d214d0579c79dc666de1381a83dcd3a0564a2fb"
+  integrity sha1-XSFNBXnHncZm3hOBqD3NOgVkovs=
 
 debug@4, debug@^4.1.1:
   version "4.3.2"

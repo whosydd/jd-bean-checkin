@@ -14,7 +14,7 @@
     "puppeteer",
     "nodemailer"
   ],
-  "author": "whosydd <dev.youngkwok718@gmail.com>",
+  "author": "GY <dev.youngkwok718@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/whosydd/jd-bean-checkin/issues"
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",
-    "cookie-format": "^0.2.0",
+    "cookie-format": "^0.2.1",
     "dotenv": "^10.0.0",
     "nodemailer": "^6.7.0",
     "puppeteer-core": "^10.4.0"
